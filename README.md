@@ -3,11 +3,11 @@ ASSIGNEMENT
 Question 1
 Many Time Pad 
 
-                  Let us see what goes wrong when a stream cipher key is used more than once.  Below are eleven hex-encoded ciphertexts that are the result of encrypting eleven plaintexts with a stream cipher, all with the same stream cipher key.  Your goal is to decrypt the last ciphertext, and submit the secret message within it as solution. 
+Let us see what goes wrong when a stream cipher key is used more than once.  Below are eleven hex-encoded ciphertexts that are the result of encrypting eleven plaintexts with a stream cipher, all with the same stream cipher key.  Your goal is to decrypt the last ciphertext, and submit the secret message within it as solution. 
 
-                  Hint: XOR the ciphertexts together, and consider what happens when a space is XORed with a character in [a-zA-Z].
+Hint: XOR the ciphertexts together, and consider what happens when a space is XORed with a character in [a-zA-Z].
 
-                  ciphertext #1:
+ciphertext #1:
 
 315c4eeaa8b5f8aaf9174145bf43e1784b8fa00dc71d885a804e5ee9fa40b16349c146fb778cdf2d3aff021dfff5b403b510d0d0455468aeb98622b137dae857553ccd8883a7bc37520e06e515d22c954eba5025b8cc57ee59418ce7dc6bc41556bdb36bbca3e8774301fbcaa3b83b220809560987815f65286764703de0f3d524400a19b159610b11ef3e
 
