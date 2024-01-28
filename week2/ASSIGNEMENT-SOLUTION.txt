@@ -1,0 +1,24 @@
+# AES Encryption/Decryption Assignment
+
+This repository contains the code used to solve an assignment on implementing AES encryption and decryption in both CBC and CTR modes.
+
+## Files in this Repository
+
+1. `decrypt_aes_cbc.py`: This Python script contains the function `decrypt_cbc` which takes a hexadecimal key and a hexadecimal ciphertext as input, and returns the decrypted plaintext. The function uses the PyCrypto library to perform AES decryption in CBC mode.
+
+2. `decrypt_aes_ctr.py`: This Python script contains the function `decrypt_ctr` which takes a hexadecimal key and a hexadecimal ciphertext as input, and returns the decrypted plaintext. The function uses the PyCrypto library to perform AES decryption in CTR mode.
+
+3. `encrypt_aes_cbc.py`: This Python script contains the function `encrypt_cbc` which takes a hexadecimal key and a plaintext message as input, and returns the encrypted ciphertext in hexadecimal format. The function uses the PyCrypto library to perform AES encryption in CBC mode.
+
+4. `encrypt_aes_ctr.py`: This Python script contains the function `encrypt_ctr` which takes a hexadecimal key and a plaintext message as input, and returns the encrypted ciphertext in hexadecimal format. The function uses the PyCrypto library to perform AES encryption in CTR mode.
+
+## Steps to Solve the Assignment
+
+1. I implemented the decryption functions for both CBC and CTR modes in the `decrypt_aes_cbc.py` and `decrypt_aes_ctr.py` files respectively. I tested these functions with the provided ciphertexts and keys.
+
+2. After successfully decrypting the ciphertexts, I moved on to implement the encryption functions for both CBC and CTR modes in the `encrypt_aes_cbc.py` and `encrypt_aes_ctr.py` files respectively.
+
+3. I tested the encryption functions with various plaintexts and keys to ensure they were working correctly.
+
+4. Finally, I documented all the steps and the purpose of each file in this file.
+
