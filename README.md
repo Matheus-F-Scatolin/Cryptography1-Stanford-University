@@ -1,6 +1,6 @@
 # Weekly Programming Challenges - Crypto Course
 
-This repository contains my solutions to the weekly programming challenges for the [Crypto Course](https://www.coursera.org/unicamp](https://www.coursera.org/programs/universidade-estadual-de-campinas-learning-program-ot7gr/learn/crypto)) offered by Unicamp on Coursera.
+This repository contains my solutions to the weekly programming challenges for the [Crypto Course](https://www.coursera.org/learn/crypto) offered by Unicamp on Coursera.
 
 Each week, we dive into different aspects of cryptography, learning about concepts like stream ciphers, block ciphers (such as AES encryption, decryption), MACs, and key exchange. The programming challenges allow us to apply these concepts in a practical manner.
 
