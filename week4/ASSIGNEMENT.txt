@@ -19,3 +19,6 @@ and observe the resulting error code.  The padding oracle will let you decrypt t
 To get you started here is a short Python script that sends a ciphertext supplied on the command line to the site and prints the resulting error code.  You can extend this script (or write one from scratch) to implement the padding oracle attack.  Once you decrypt the given ciphertext, please enter the decrypted message in the box below.   
 
 This project shows that when using encryption you must prevent padding oracle attacks by either using encrypt-then-MAC as in EAX or GCM, or if you must use MAC-then-encrypt then ensure that the site treats padding errors the same way it treats MAC errors.
+
+
+Note: The server was down when I was trying to solve this, so I simulated the solution.
