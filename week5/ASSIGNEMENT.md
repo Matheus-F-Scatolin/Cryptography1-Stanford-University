@@ -18,7 +18,7 @@ in $Z_p$.
 
 The variables in this equation are $`x_0`$, $`x_1`$ and everything else is known: you are given `g`, `h` and $`B = 2^{20}`$. Since the variables $`x_0`$ and $`x_1`$ are now on different sides of the equation we can find a solution using meet in the middle (Lecture 3.3 at 14:25):
 
-First build a hash table of all possible values of the left hand side $\frac{h}{g^{x_1}}$ for `x_1 = 0, 1, …, 2^{20}`. Then for each value `x_0 = 0, 1, 2, …, 2^{20}` check if the right hand side $(g^B)^{x_0}$ is in this hash table. If so, then you have found a solution (`x_0`, `x_1`) from which you can compute the required `x` as $x = x_0 * B + x_1$. The overall work is about $2^{20}$ multiplications to build the table and another $2^{20}$ lookups in this table.
+First build a hash table of all possible values of the left hand side $\frac{h}{g^{x_1}}$ for $`x_1 = 0, 1, …, 2^{20}`$. Then for each value $`x_0 = 0, 1, 2, …, 2^{20}`$ check if the right hand side $(g^B)^{x_0}$ is in this hash table. If so, then you have found a solution ($`x_0`$, $`x_1`$) from which you can compute the required `x` as $x = x_0 * B + x_1$. The overall work is about $2^{20}$ multiplications to build the table and another $2^{20}$ lookups in this table.
 
 Now that we have an algorithm, here is the problem to solve:
 
