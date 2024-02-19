@@ -25,7 +25,7 @@ Visually, the numbers p,q, $\sqrt{N}$ and A are ordered as follows:
 
 Since A is the exact mid-point between p and q there is an integer x such that p=A−x and q=A+x.
 
-But then $N=pq=(A−x)(A+x)=A2−x2$ and therefore $x=A2−\sqrt{N}$.
+But then $N=pq=(A−x)(A+x)=A²−x²$ and therefore $x=A²−\sqrt{N}$.
 
 Now, given x and A you can find the factors p and q of N since p=A−x and q=A+x. You have now factored N!
 
@@ -46,15 +46,13 @@ The following modulus N is a products of two primes p and q where |p−q|<2N1/4.
 
 For completeness, let us see why $A - \sqrt{N} < 1$. This follows from the following simple calculation.
 
-First observe that $A^2 - N = (p^2 + q^2)^2 - 4p^2q^2 = p^4 + 2p^2q^2 + q^4 - N = p^4 + 2p^2q^2 + q^4 - (p - q)^2 / 4$.
+First observe that $A^2 - N = (p^2 + q^2)^2 - 4p^2q^2 = p^4 + 2p^2q^2 + q^4 - N = p^4 + 2p^2q^2 + q^4 = (p - q)^2 / 4$.
 
-Now, since for all $z,y : (x−y)(x+y) = x²−y²$ we obtain:
-$A - \sqrt{N} = (A - \sqrt{N})(A+\sqrt{N}) / A+\sqrt{N} = A²−N / A+\sqrt{N} = (p−q)²/4 / A+\sqrt{N}$
+Now, since for all `x`, `y` : $(x - y)(x + y) = x^2 - y^2$ we obtain $A - \sqrt{N} = (A - \sqrt{N}) \frac{A+\sqrt{N}}{A+\sqrt{N}} = \frac{A^2-N}{A+\sqrt{N}} = \frac{\frac{(p-q)^2}{4}}{{A+\sqrt{N}}}$.
 
-Since $\sqrt{A+N} \leq A$ it follows that $A - \sqrt{A+N} \leq p+q/\sqrt{8N}$
-By assumption (*) we know that $(p - q)² < 4N$ and therefore
-$A - \sqrt{8N} \leq N/8 \leq 1$ as required.
+Since $\sqrt{N} \leq A$ it follows that $A - \sqrt{N} < \frac{(p-q)^2}{4} / 2\sqrt{N} = \frac{(p-q)^2}{8\sqrt{N}}$.
 
+By assumption (*) we know that $(p-q)^2 \leq 4\sqrt { N }$ and therefore $A-\sqrt { N } \leq 1/2$ as required.
 Enter the answer for factoring challenge #1 in the box below:
 
 
@@ -74,7 +72,7 @@ Hint: In this case $A = \sqrt{N} < 2^{20}$ so try scanning for `A` from $\sqrt{N
 ## Factoring challenge #3:
 
 The following modulus `N` is a product of two primes `p` and `q` where $|3p - 2q| < N^{1/4}$. Find the smaller of the two factors and enter it as a decimal integer.
-Hint: first show that $\sqrt[6]{N}$ is close to $\frac{3p+2q}{2}$ and then adapt the method in challenge #1 to factor `N`.
+Hint: first show that $\sqrt{6N}$ is close to $\frac{3p+2q}{2}$ and then adapt the method in challenge #1 to factor `N`.
 
 	N =72006226374735042527956443552558373833808445147399984182665305798191 \
 	63556901883377904234086641876639384851752649940178970835240791356868 \
